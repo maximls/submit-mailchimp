@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mailchimp-api-v3": "^1.13.0",
+    "netlify-lambda": "^1.4.7",
+    "querystring": "^0.2.0"
+  },
+  "scripts": {
+    "start:lambda": "netlify-lambda serve functions"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
