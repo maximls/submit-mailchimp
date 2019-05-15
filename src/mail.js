@@ -21,8 +21,7 @@ exports.handler = function(event, context) {
     .catch(e => {
       return {
         statusCode: 400,
-        body:
-          "There was an error submitting your email address. It might be that you already used this email address to subscribe."
+        body: `There was an error submitting your email address. It might be that you already used this email address to subscribe.`
       };
     });
 };
