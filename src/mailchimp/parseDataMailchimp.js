@@ -1,6 +1,6 @@
 //Get regex that matches required fields
-var regex = require("../functions/regex.js");
-var renameKeys = require("../functions/renameKeys.js");
+var regex = require("../helpers/regex.js");
+var renameKeys = require("../helpers/renameKeys.js");
 // const data = {
 //   FIRST_NAME: "Max",
 //   last_name: "lysakovsky",

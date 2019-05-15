@@ -1,6 +1,6 @@
 const Mailchimp = require("mailchimp-api-v3");
 const parseData = require("./parseDataMailchimp.js");
-const config = require("../config.js");
+const config = require("../../config.js");
 const mailchimp = new Mailchimp(config.MAILCHIMPAPI);
 
 function addUser(data) {

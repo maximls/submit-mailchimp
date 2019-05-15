@@ -1,6 +1,6 @@
-const addUser = require("../mailchimp/addUser.js");
+const addUser = require("./mailchimp/addUser.js");
 const querystring = require("querystring");
-const parseDataRedirect = require("./parseDataRedirect.js");
+const parseDataRedirect = require("./helpers/parseDataRedirect.js");
 const config = require("../config.js");
 
 exports.handler = function(event, context) {
