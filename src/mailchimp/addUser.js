@@ -5,6 +5,7 @@ const mailchimp = new Mailchimp(config.MAILCHIMPAPI);
 
 function addUser(data) {
   const params = parseData(data);
+  console.log(params);
   return mailchimp.request({
     method: "post",
     path: `/lists/${config.LISTID}/members`,
