@@ -1,3 +1,10 @@
+#CI deploy
+
+Push to github and watch Netlify build. If build fails, try manual deploy below
+
+
+#Manual deploy
+
 After making changes to JS files in 'src' directory in project console run:    
 ```
 'yarn netlify-lambda build src'    
